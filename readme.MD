@@ -20,3 +20,6 @@
 * terraform workspace new prod
 * terraform workspace select dev (points *)
 * terraform gives a variable called "terraform.workspace" whose value is equal to workspace name (if workspace dev is selected terraform.workspace value is dev)
+
+If we are using modules, for any changes done original module code we need to do(i.e to get updates when module developers updates it)
+* terraform init -upgrade
